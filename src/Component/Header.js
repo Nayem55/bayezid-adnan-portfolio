@@ -13,7 +13,7 @@ const Header = () => {
       {/* Left Links */}
       <div className="flex space-x-10 hidden lg:flex">
         <Link to="/" className="text-white font-bold ease-in-out duration-200 hover:text-black">Home</Link>
-        <Link to="#services" className="text-white font-bold ease-in-out duration-200 hover:text-black">Services</Link>
+        {/* <Link to="#services" className="text-white font-bold ease-in-out duration-200 hover:text-black">Services</Link> */}
         <Link to="/portfolio" className="text-white font-bold ease-in-out duration-200 hover:text-black">Portfolio</Link>
       </div>
 
@@ -24,9 +24,9 @@ const Header = () => {
 
       {/* Right Links */}
       <div className="flex space-x-10 hidden lg:flex">
-        <Link to="#about" className="text-white font-bold ease-in-out duration-200 hover:text-black">About</Link>
-        <Link to="#contact" className="text-white font-bold ease-in-out duration-200 hover:text-black">Contact</Link>
-        <Link to="#blog" className="text-white font-bold ease-in-out duration-200 hover:text-black">Blog</Link>
+        <Link to="/about" className="text-white font-bold ease-in-out duration-200 hover:text-black">About</Link>
+        <Link to="/contact" className="text-white font-bold ease-in-out duration-200 hover:text-black">Contact</Link>
+        {/* <Link to="#blog" className="text-white font-bold ease-in-out duration-200 hover:text-black">Blog</Link> */}
       </div>
 
       {/* Hamburger Icon for Mobile */}
