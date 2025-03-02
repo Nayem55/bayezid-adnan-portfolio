@@ -12,14 +12,14 @@ const Header = () => {
     <header className="fixed w-full sm:px-32 z-10 bg-black bg-opacity-40 px-4 py-2 sm:py-8 flex justify-between items-center">
       {/* Left Links */}
       <div className="flex space-x-10 hidden lg:flex">
-        <Link to="#home" className="text-white font-bold ease-in-out duration-200 hover:text-black">Home</Link>
+        <Link to="/" className="text-white font-bold ease-in-out duration-200 hover:text-black">Home</Link>
         <Link to="#services" className="text-white font-bold ease-in-out duration-200 hover:text-black">Services</Link>
-        <Link to="#portfolio" className="text-white font-bold ease-in-out duration-200 hover:text-black">Portfolio</Link>
+        <Link to="/portfolio" className="text-white font-bold ease-in-out duration-200 hover:text-black">Portfolio</Link>
       </div>
 
       {/* Logo */}
       <div className="flex justify-center flex-grow">
-        <Link to="#home" className="text-white text-2xl font-bold">BAYEZID ADNAN</Link>
+        <Link to="/" className="text-white text-2xl font-bold">BAYEZID ADNAN</Link>
       </div>
 
       {/* Right Links */}
