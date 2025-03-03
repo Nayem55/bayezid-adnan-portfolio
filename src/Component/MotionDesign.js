@@ -3,7 +3,7 @@ import React from "react";
 const MotionDesign = () => {
   return (
     <section className="py-20 px-4 lg:px-32 bg-gray-100">
-      <div className="text-center mb-16">
+      <div className="text-left mb-16">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Motion Design</h2>
         <p className="text-lg text-gray-600 mb-8">
           Explore our motion design work that brings stories to life through
