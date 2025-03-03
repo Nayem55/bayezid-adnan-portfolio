@@ -20,7 +20,7 @@ const Clients = () => {
       </div>
 
       {/* Clients Logo Slider */}
-      <div className="relative w-full overflow-hidden w-[90vw] mx-auto">
+      <div className="relative overflow-hidden w-[90vw] sm:w-[80vw] mx-auto">
         <div className="flex space-x-10 animate-marquee">
           {[...clients, ...clients].map((logo, i) => (
             <div key={i} className="flex-shrink-0">

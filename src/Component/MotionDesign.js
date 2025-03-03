@@ -13,34 +13,28 @@ const MotionDesign = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         <div className="group relative overflow-hidden rounded-lg shadow-lg">
-          <img
-            src="https://www.scad.edu/sites/default/files/styles/swarm16x9_768/public/Academics/Motion%20media%20design/student-work-motion-media-design-blown-away.jpg?itok=1qzAKjaO&timestamp=1631290597"
-            alt="Motion Design 1"
-            className="w-full h-full object-cover transform group-hover:scale-110 transition duration-300 ease-in-out"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-            <span className="text-white text-xl font-bold">Motion 1</span>
-          </div>
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            className="w-full h-48 sm:h-[400px]"
+            title="Motion Design 1"
+            allowFullScreen
+          ></iframe>
         </div>
         <div className="group relative overflow-hidden rounded-lg shadow-lg">
-          <img
-            src="https://media.licdn.com/dms/image/D4D12AQEaKoty4iyXcQ/article-cover_image-shrink_600_2000/0/1657206551008?e=2147483647&v=beta&t=kTjnSQcHvSFnXmYvJQrfKtKc1eHdQO4rD8bkrVL2erA"
-            alt="Motion Design 2"
-            className="w-full h-full object-cover transform group-hover:scale-110 transition duration-300 ease-in-out"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-            <span className="text-white text-xl font-bold">Motion 2</span>
-          </div>
+          <iframe
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            className="w-full h-48 sm:h-[400px]"
+            title="Motion Design 2"
+            allowFullScreen
+          ></iframe>
         </div>
         <div className="group relative overflow-hidden rounded-lg shadow-lg">
-          <img
-            src="https://cdn.prod.website-files.com/646e2eaef4ea8c90fde6a519/64d32b9df6c651a09a133902_How%20to%20use%20motion%20graphics%20in%20your%20marketing.webp"
-            alt="Motion Design 3"
-            className="w-full h-full object-cover transform group-hover:scale-110 transition duration-300 ease-in-out"
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-            <span className="text-white text-xl font-bold">Motion 3</span>
-          </div>
+          <iframe
+            src="https://www.youtube.com/embed/mN4qEw2OzF8"
+            className="w-full h-48 sm:h-[400px]"
+            title="Motion Design 3"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
 
